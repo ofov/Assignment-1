@@ -1,0 +1,387 @@
+body,
+html {
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 202, 201);
+    background-image: image-set(url(https://cdn.discordapp.com/attachments/613731117580943385/1295000269515653130/92944801.png?ex=670d0e7c&is=670bbcfc&hm=967ee923a03fce32cac65b3ce696c0e0179dae3ded788d7f976fa3e5d31938f2&));
+
+}
+/*<!--Edit Body-->*/
+body {
+    
+    margin: 1ch;
+    padding: 15px 15px 15px 15px;
+}
+
+
+.fontStyle {
+    font-family: 'Comic Sans MS';
+    color: rgb(236, 142, 19);
+
+}
+
+/*Edit Header*/
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: #ffe4c4;
+    width: auto;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 50px 0 50px;
+    border: 2px solid;
+    border-color: rgb(252, 192, 119);
+}
+
+.header p {
+    margin: left 200px;;
+    text-align: justify;
+    line-height: 1.5;
+    display: flex;
+    align-items: stretch;
+
+}
+.header h1 {
+    font-family: 'Comic Sans MS';
+    color: rgb(236, 142, 19);
+
+}
+
+.spacearaound {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.effect a {
+
+    text-decoration: none;
+    padding: 10px 10px;
+    font-family: 'Comic Sans MS';
+    font-size: large;
+    color: #000000;
+
+}
+
+/*Edit Links*/
+.effect a:hover {
+    text-align: center;
+    border-radius: 45px;
+    font-size: large;
+    transform: scale(1.20);
+
+}
+
+.effect1:hover {
+    background-color: #ecca07b0;
+    color: rgb(255, 255, 255);
+
+}
+
+.effect2:hover {
+    background-color: #0e50dfad;
+    color: rgb(255, 255, 255);
+
+}
+
+.effect3:hover {
+    background-color: #e01010b7;
+    color: rgb(255, 255, 255);
+
+}
+
+.effect4:hover {
+    background-color: #51eb0ab7;
+    color: rgb(255, 255, 255);
+
+}
+
+.effect5:hover {
+    background-color: #db17aab4;
+    color: rgb(255, 255, 255);
+
+}
+
+.bottomborder {
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.topborder {
+
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.img {
+
+    border-radius: 10px;
+    height: auto;
+    border: 2px solid;
+
+}
+/* Mobile Style for Header */
+@media (max-width: 750px) {
+    .header {
+        margin: 0 10px; 
+        padding: 10px; 
+    }
+
+    .header p {
+        display: block;
+        text-align: center; 
+        margin: 0; 
+    }
+
+    .spacearaound {
+        display: block; 
+        text-align: center;
+    }
+
+    .effect a {
+        display: grid;
+      text-align: right;
+        margin: 5px auto; 
+        padding: 8px;
+        font-size: medium;
+        border-radius: 15px;
+    
+}
+.effect a:hover {
+    text-align: right;
+    border-radius: 20px;
+    font-size: medium;
+    transform: scale(0.99);
+
+}
+}
+@media (max-width: 1150px) {
+    .s7s {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s7s img {
+        display: block;
+        margin: 0 auto; 
+        width: auto; 
+        max-width: 100%; 
+        width: 80%;
+    }
+}
+
+.s7s {
+    display: flex;
+    align-items: stretch;
+
+}
+
+.s7s p {
+
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+
+}
+
+.main {
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.table {
+    align-items: center;
+    text-align: center;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.w2{
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: bisque;
+    margin-right:26% ;
+    margin-left:26% ;
+   margin-top: 5px;
+   margin-bottom: 1%;
+   font-family:'Comic Sans MS' ;
+   color: rgb(19, 156, 236);
+   border: 2px solid;
+    border-color: rgb(252, 192, 119)
+}
+.w3{
+    padding: 20px 20px 30px 20px;
+    border-radius: 20px;
+    background-color: bisque;
+    margin-right:26% ;
+    margin-left:26% ;
+   margin-top: 3%;
+   margin-bottom: 3%;
+   font-family:'Comic Sans MS' ;
+   color: rgb(120, 19, 236);
+   border: 2px solid;
+   border-color:rgb(236, 142, 19);
+   
+}
+/*Edit Table*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1.5px solid #000000;
+    padding: 12px;
+}
+
+th {
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    font-family: 'Comic Sans MS';
+    /* kids font*/
+}
+
+
+td {
+    background-color: #faedcd;
+}
+
+td {
+    background-color: #ffffffd0;
+}
+
+
+/* Make the table suitable for Mobile styling */
+@media (max-width: 750px) {
+    table {
+        font-size: 0.9em;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+/*Edit Photos*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+}
+/* Make the the photo Gallery suitable for Mobile styling */
+@media (max-width: 950px) {
+    .gallery {
+        grid-template-columns: 1fr; /* Make it vertical for Mobile  */
+        gap: 15px; 
+    }
+    .gallery-item img {
+        width: 100%;
+        height: auto; 
+        margin-bottom: 10px; 
+    }
+}
+.gallery-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+.gallery-item:hover {
+    background-color: rgba(138, 136, 136, 0.795);
+    transform: scale(1.1);
+
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: medium;
+    color: #555;
+}
+
+
+@media (max-width: 750px) {
+    .gallery-item img {
+        grid-template-columns: 2fr;
+        gap: 15px;
+
+    }
+}
+/*Edit Resources*/
+#resources {
+    background-color: bisque; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin: 40px 50px 0 50px;
+}
+
+#resources h2 {
+    color: #ff9f1a;
+    font-size: 2rem;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: center;
+}
+
+/*Edit Contact*/
+#Contact {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin: 40px 50px 0 50px;
+    
+
+}
+
+#Contact h2 {
+    text-align: center;
+    display: block;
+    color: #1a29ff;
+    font-size: 2rem;
+}
+
+#contact p {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: center;
+}
+
+#Contact img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    padding-top: 10px;
+}
