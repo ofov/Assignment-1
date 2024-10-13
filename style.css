@@ -105,6 +105,11 @@ body {
     color: rgb(255, 255, 255);
 
 }
+.effect6:hover {
+    background-color: #17dbdbb4;
+    color: rgb(255, 255, 255);
+
+}
 /* Border radius styling for top and bottom border */
 .bottomborder {
 
