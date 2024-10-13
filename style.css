@@ -4,7 +4,8 @@ html {
     display: grid;
     align-items: center;
     justify-content: center;
-    background-color: rgb(202, 202, 201);
+    background-color: rgb(202, 202, 201);/* Set background color */
+    /* Set background image */
     background-image: image-set(url(https://cdn.discordapp.com/attachments/613731117580943385/1295000269515653130/92944801.png?ex=670d0e7c&is=670bbcfc&hm=967ee923a03fce32cac65b3ce696c0e0179dae3ded788d7f976fa3e5d31938f2&));
 
 }
@@ -31,19 +32,20 @@ body {
     text-align: center;
     align-items: center;
     padding: 20px;
-    margin: 0 50px 0 50px;
-    border: 2px solid;
+    margin: 0 50px 0 50px; /* Set horizontal margin */
+    border: 2px solid; /* Add border */
     border-color: rgb(252, 192, 119);
 }
 
 .header p {
-    margin: left 200px;;
+    margin: left 200px;/* Add margin for pharagraph postion */ ;
     text-align: justify;
     line-height: 1.5;
     display: flex;
     align-items: stretch;
 
 }
+/* Header title styling */
 .header h1 {
     font-family: 'Comic Sans MS';
     color: rgb(236, 142, 19);
@@ -55,26 +57,25 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* Link styling */
 .effect a {
 
-    text-decoration: none;
+    text-decoration: none; /* Remove underline from links */
     padding: 10px 10px;
     font-family: 'Comic Sans MS';
     font-size: large;
     color: #000000;
 
 }
-
-/*Edit Links*/
+/* Link hover effect */
 .effect a:hover {
     text-align: center;
     border-radius: 45px;
     font-size: large;
-    transform: scale(1.20);
+    transform: scale(1.20);/* Scale up link on hover */
 
 }
-
+/* each link has a specific classes and change background color on each hover */
 .effect1:hover {
     background-color: #ecca07b0;
     color: rgb(255, 255, 255);
@@ -104,7 +105,7 @@ body {
     color: rgb(255, 255, 255);
 
 }
-
+/* Border radius styling for top and bottom border */
 .bottomborder {
 
     border-bottom-left-radius: 20px;
@@ -160,6 +161,7 @@ body {
 
 }
 }
+/*Styles for mobile screens*/
 @media (max-width: 1150px) {
     .s7s {
         display: flex;
@@ -208,6 +210,7 @@ body {
     margin: 0 auto;
 
 }
+/* Styling for elements with class 'w2' */
 .w2{
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
@@ -221,6 +224,7 @@ body {
    border: 2px solid;
     border-color: rgb(252, 192, 119)
 }
+/* Styling for elements with class 'w3' */
 .w3{
     padding: 20px 20px 30px 20px;
     border-radius: 20px;
@@ -278,7 +282,7 @@ td {
         padding: 8px;
     }
 }
-/*Edit Photos*/
+/* Gallery styling for displaying images */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -306,7 +310,7 @@ td {
     border-radius: 8px;
     
 }
-
+/* effect for gallery items */
 .gallery-item:hover {
     background-color: rgba(138, 136, 136, 0.795);
     transform: scale(1.1);
@@ -325,7 +329,7 @@ td {
     color: #555;
 }
 
-
+/* Adjustments for mobile gallery items */
 @media (max-width: 750px) {
     .gallery-item img {
         grid-template-columns: 2fr;
@@ -354,7 +358,7 @@ p {
     text-align: center;
 }
 
-/*Edit Contact*/
+/* Contact section styling */
 #Contact {
     background-color: bisque;
     padding: 20px;
@@ -364,13 +368,14 @@ p {
     
 
 }
-
+/* Header styling for contact section */
 #Contact h2 {
     text-align: center;
     display: block;
     color: #1a29ff;
     font-size: 2rem;
 }
+/* Paragraph styling within contact section */
 
 #contact p {
     margin-bottom: 15px;
@@ -378,7 +383,7 @@ p {
     color: #000000;
     text-align: center;
 }
-
+/* Image styling within contact section */
 #Contact img {
     display: block;
     margin: 0 auto;
